@@ -12,7 +12,7 @@ struct treenode{
     struct treenode * left;
     struct treenode * right;
 };
-struct node * root=NULL;
+struct treenode * root=NULL;
 void insert(){
     int data;
     struct treenode * n;
