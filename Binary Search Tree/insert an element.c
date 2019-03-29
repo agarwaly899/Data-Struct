@@ -7,6 +7,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
 *******************************************************************************/
 
 #include <stdio.h>
+#include <stdlib.h>
 struct treenode{
     int data;
     struct treenode * left;
