@@ -136,6 +136,7 @@ struct treenode * avdelete(struct treenode * start,int key){
     else {// element found
          start=delete(start,key);
         }
+    // look for the deletion at gfg please
     if(start!=NULL){
         start->height=1+max(height(start->left),height(start->right));
         int balance=getBalance(start);
